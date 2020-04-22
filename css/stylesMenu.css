@@ -1,0 +1,45 @@
+body {
+  background-color: #222832;
+  background-image: url("../assets/images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+p {
+  background-color: #42240c;
+  border-radius: 1rem;
+  padding: 1%;
+  margin: 1% auto;
+  width: 75%;
+}
+
+h1 {
+  font-family: 'Underdog', cursive;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: 'Special Elite', cursive;
+}
+
+.instructions {
+  background: rgba(66, 36, 12, 0.9);
+  border-radius: 2rem;
+  color: #faf9f9;
+  margin: auto;
+  padding: 1% 0;
+  width: 70%;
+}
+
+.htp-images {
+  border-radius: 0.5rem;
+  width: 60%;
+}
+
+.btn {
+  margin-top: 1%;
+  font-family: 'Rye', cursive;
+}

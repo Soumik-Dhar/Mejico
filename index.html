@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>🎲Méjico</title>
+  <!-- bootstrap styling link and associated js scripts -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- external css styling link -->
+  <link rel="stylesheet" href="css/stylesMenu.css">
+  <!-- google fonts link -->
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Rye&family=Underdog&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container-fluid box">
+
+    <div class="mejico">
+      <h1>Méjico</h1>
+    </div>
+
+    <div class="instructions">
+
+      <h3>How to Play</h3>
+
+      <div id="control-carousel" class="carousel slide" data-ride="false" data-interval="false">
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="htp-box">
+              <img class="htp-images" src="assets/images/screen-1.png" alt="screen 1">
+              <p>Méjico is a fun elimination dice game loosely based on the popular drinking game 'Mexico 2-1'.
+                The goal of the game is to be the only player left standing;
+                players are eliminated when they run out of turns to participate in the next rounds.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="htp-box">
+              <img class="htp-images" src="assets/images/screen-2.png" alt="screen 1">
+              <p>At the beginning of the game, each player starts out with 6 lives. Two dice are used by each player,
+                and on every roll their separate numerical values are combined to form a two-digit number.
+                The player with the lowest roll in that turn loses a life.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="htp-box">
+              <img class="htp-images" src="assets/images/screen-3.png" alt="screen 1">
+              <p>When a player loses a round, the lives counter die is rotated to the next lower number.
+                The game is continued until one of the players loses all 6 lives and is eliminated. <br>
+                The last one standing is the winner.</p>
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" href="#control-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#control-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div>
+      <button type="button" name="button" class="btn btn-lg btn-success" onclick="location.href = 'game.html'">🎲 PLAY 🎲</button>
+    </div>
+
+</body>
+
+</html>
